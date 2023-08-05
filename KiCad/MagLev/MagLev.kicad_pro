@@ -32,7 +32,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|1193800|1600200|171f2bab-8ed4-45e7-b959-f4351ca6f31c|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|368300|1155700|d8f23305-97da-4e9a-84e7-baa96c6b5fa7|00000000-0000-0000-0000-000000000000|||",
+      "pin_to_pin|1104900|825500|331ced67-78ae-4497-9bcb-761217b4123c|b8fc1772-e609-4793-9346-8e1a82b27359|/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560|/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560|/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560",
+      "power_pin_not_driven|1143000|495300|c7b95b22-4398-46cb-bfb6-dc7954f4b695|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|457200|1524000|6f5aa022-ce70-4ff0-9c12-a7e4ea06ac06|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|641350|1212850|8a6963e3-e6d1-4c06-ac20-4be158ae328e|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|876300|292100|d2b90a86-2b1d-49bf-abe4-734576d61676|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|876300|495300|6529b69c-2017-49b0-8b3f-643f768d2204|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -274,24 +283,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/XY_Axis_1/Vref+": "+",
-      "/XY_Axis_1/Vref-": "-",
-      "/XY_Axis_2/Vref+": "+",
-      "/XY_Axis_2/Vref-": "-",
-      "Net-(D5-K)": "DR",
-      "Net-(D5-K)_1": "DR",
-      "Net-(D7-K)": "DR",
-      "Net-(D7-K)_1": "DR",
-      "Net-(R21-Pad2)": "+",
-      "Net-(R24-Pad1)": "-",
-      "Net-(R25-Pad1)": "-",
-      "Net-(R26-Pad2)": "+",
-      "unconnected-(C6-Pad2)": "-",
-      "unconnected-(C7-Pad2)": "-",
-      "unconnected-(U1E-V+-Pad4)": "DR",
-      "unconnected-(U2E-V+-Pad4)": "DR"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
