@@ -1,0 +1,4 @@
+# ingored files
+/KiCad/MagLev/MagLev-backups*
+*.raw
+*.log
