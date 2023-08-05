@@ -275,12 +275,22 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "Net-(D1-K)": "DR",
-      "Net-(D1-K)_1": "DR",
-      "Net-(D3-K)": "DR",
-      "Net-(D3-K)_1": "DR",
+      "/XY_Axis_1/Vref+": "+",
+      "/XY_Axis_1/Vref-": "-",
+      "/XY_Axis_2/Vref+": "+",
+      "/XY_Axis_2/Vref-": "-",
+      "Net-(D5-K)": "DR",
+      "Net-(D5-K)_1": "DR",
+      "Net-(D7-K)": "DR",
+      "Net-(D7-K)_1": "DR",
+      "Net-(R21-Pad2)": "+",
+      "Net-(R24-Pad1)": "-",
+      "Net-(R25-Pad1)": "-",
+      "Net-(R26-Pad2)": "+",
+      "unconnected-(C6-Pad2)": "-",
+      "unconnected-(C7-Pad2)": "-",
       "unconnected-(U1E-V+-Pad4)": "DR",
-      "unconnected-(U1E-V+-Pad4)_1": "DR"
+      "unconnected-(U2E-V+-Pad4)": "DR"
     },
     "netclass_patterns": []
   },
@@ -335,8 +345,12 @@
       ""
     ],
     [
-      "900c73f6-729e-4964-925d-c4d9cc6fa0a1",
-      "X2Y2_Axis"
+      "1b1a7f40-4880-4dc8-87d1-1ed1d4fb8d1e",
+      "XY_Axis_1"
+    ],
+    [
+      "7df46fb0-abf8-474a-ba30-7ff9455482b6",
+      "XY_Axis_2"
     ]
   ],
   "text_variables": {}
