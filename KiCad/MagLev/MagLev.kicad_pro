@@ -343,6 +343,10 @@
     [
       "7df46fb0-abf8-474a-ba30-7ff9455482b6",
       "XY_Axis_2"
+    ],
+    [
+      "f228425d-6c39-40c9-8e00-a9ebad8217db",
+      "MCU"
     ]
   ],
   "text_variables": {}

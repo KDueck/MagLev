@@ -1886,7 +1886,7 @@
     (property "Reference" "RV2" (at 223.52 137.16 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1k" (at 223.52 134.62 0)
+    (property "Value" "10k" (at 223.52 134.62 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Maglev_Footprint_Library:Potentiometer_ST-4EB" (at 220.98 135.89 0)
