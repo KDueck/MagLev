@@ -1329,6 +1329,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a20d7d29-d161-495c-a8ce-af1e06228995)
   )
+  (text "Add LPF" (at 224.282 94.234 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e81b4e46-e733-458a-9a83-933b1c36cf48)
+  )
 
   (label "DR" (at 112.776 89.662 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
