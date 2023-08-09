@@ -3516,7 +3516,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 201.422 119.888 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 261e53e7-5a35-4b97-bc9b-30206cdc0c72)
-    (property "Reference" "SW1" (at 189.738 118.872 90)
+    (property "Reference" "RESET1" (at 189.738 118.872 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PTS645" (at 189.738 121.412 90)
@@ -3533,7 +3533,7 @@
     (instances
       (project "MagLev"
         (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560/f228425d-6c39-40c9-8e00-a9ebad8217db"
-          (reference "SW1") (unit 1)
+          (reference "RESET1") (unit 1)
         )
       )
     )

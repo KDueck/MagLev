@@ -1707,8 +1707,8 @@
     (property "Datasheet" "~" (at 161.036 96.012 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b39cec94-a0bd-4930-b67b-5714a1e745d3))
-    (pin "2" (uuid fa025c2a-b8bf-4f3c-bec0-464b3299cbba))
+    (pin "1" (uuid 4257bb1d-753b-40a0-984e-b74ae4a69a15))
+    (pin "2" (uuid 6158008e-2f9b-4494-b276-4ff92165f691))
     (instances
       (project "MagLev"
         (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560"
