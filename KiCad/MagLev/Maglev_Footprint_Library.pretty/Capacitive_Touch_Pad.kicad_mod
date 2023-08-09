@@ -26,6 +26,6 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.SilkS") (tstamp f58011c7-71b2-4fd1-9330-b5fb04f73c36))
-  (pad "1" smd roundrect (at 0 0) (size 10 10) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0)
+  (pad "1" smd roundrect (at 0 0) (size 10 10) (layers "F.Cu" "F.Mask") (roundrect_rratio 0)
     (chamfer_ratio 0.25) (chamfer top_left top_right bottom_left bottom_right) (tstamp 66202410-1c08-4b55-985f-26c3740697d1))
 )
