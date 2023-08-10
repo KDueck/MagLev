@@ -2980,21 +2980,6 @@
     (uuid f801fd72-b624-4783-8e38-f6252ef5bc9f)
   )
 
-  (global_label "Vcc" (shape input) (at 235.458 25.527 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2a6e8608-420a-42e3-b3bc-0611eae40d23)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 235.458 19.276 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Vcc" (shape input) (at 235.712 97.663 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 387fc418-4ef4-4a86-9d35-ac50ec5f6cb1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 235.712 91.412 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
   (hierarchical_label "En_sig" (shape input) (at 178.816 102.108 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2e39c436-4f1a-497d-8828-7956fe435262)
@@ -4105,6 +4090,34 @@
     )
   )
 
+  (symbol (lib_id "power:VCC") (at 235.458 25.527 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4d76e7bb-3b1e-4e68-8102-bd699d329d27)
+    (property "Reference" "#PWR048" (at 235.458 29.337 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 235.458 20.447 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 235.458 25.527 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 235.458 25.527 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5afa48c7-f270-4016-8755-2e53f1a5cf5a))
+    (instances
+      (project "MagLev"
+        (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560/f228425d-6c39-40c9-8e00-a9ebad8217db"
+          (reference "#PWR048") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED") (at 235.458 55.753 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d8c7816-dda4-4e4f-9db7-7922b3ef76cf)
@@ -4261,7 +4274,7 @@
     (property "Value" "USB_B_Micro" (at 29.337 74.676 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal" (at 33.147 85.598 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal" (at 33.147 85.598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.147 85.598 0)
@@ -5318,8 +5331,8 @@
     (property "Datasheet" "~" (at 254.635 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 30fbc8db-aaed-4599-8c31-ed2a589e0f38))
-    (pin "2" (uuid 1f559449-85c7-42a8-87af-fbd350da3ee7))
+    (pin "1" (uuid 94b2bb81-846a-4d01-b67e-cf7536a49798))
+    (pin "2" (uuid aafe63a0-ed7d-4796-8438-5309bd7cd85a))
     (instances
       (project "MagLev"
         (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560"
@@ -5672,6 +5685,34 @@
         )
         (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560/f228425d-6c39-40c9-8e00-a9ebad8217db"
           (reference "R60") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 235.712 97.663 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid eba04228-f62c-405a-b4f5-c765400007bb)
+    (property "Reference" "#PWR048" (at 235.712 101.473 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 235.712 92.583 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 235.712 97.663 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 235.712 97.663 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 39eba192-0c3b-4823-bcc8-09b68f11c437))
+    (instances
+      (project "MagLev"
+        (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560"
+          (reference "#PWR048") (unit 1)
+        )
+        (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560/f228425d-6c39-40c9-8e00-a9ebad8217db"
+          (reference "#PWR053") (unit 1)
         )
       )
     )
