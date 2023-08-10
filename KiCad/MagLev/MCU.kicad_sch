@@ -4169,7 +4169,7 @@
     (property "Value" "USB_B_Micro" (at 29.337 74.676 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10104110_Horizontal" (at 33.147 85.598 0)
+    (property "Footprint" "Maglev_Footprint_Library:USB_Micro-B_Amphenol_10104110_Horizontal_Overhang" (at 33.147 85.598 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.147 85.598 0)
