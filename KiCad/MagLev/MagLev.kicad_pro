@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.45,
-          "width": 1.75
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -461,7 +461,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
+        "clearance": 0.3,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -484,7 +484,6 @@
     "netclass_assignments": {
       "+5V": "HighCurrent",
       "/DR": "HighCurrent",
-      "/Vcc_en": "Supply",
       "/X1": "HighCurrent",
       "/X2": "HighCurrent",
       "/Y1": "HighCurrent",
