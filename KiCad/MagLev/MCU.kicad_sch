@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MCU Implementation")
+    (date "2023-08-12")
+    (rev "V1.0")
+    (company "Kevin Dueck")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x06_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
@@ -2789,7 +2796,7 @@
     (uuid d0d75cda-7c06-4184-8082-e8c4ddf97dd8)
   )
   (text "Add to setup: TCCR2B = TCCR2B & 0b11111000 | 0x02;\n3906.25Hz PWM"
-    (at 141.732 135.636 0)
+    (at 141.732 135.89 0)
     (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://forum.arduino.cc/t/varying-the-pwm-frequency-for-timer-0-or-timer-2/16679/5"))
     (uuid d126ae15-d85a-48d4-9a93-9d76307caa08)
   )
@@ -4661,8 +4668,8 @@
     (property "Datasheet" "~" (at 92.71 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 11c0d593-4b77-410d-8dd3-1a84c21cf395))
     (pin "1" (uuid c858d77d-fb94-4eb2-887c-66a7d1d03531))
+    (pin "2" (uuid 11c0d593-4b77-410d-8dd3-1a84c21cf395))
     (instances
       (project "MagLev"
         (path "/5eab7e8b-54e1-47d0-9dc3-1e7c3fa2f560/f228425d-6c39-40c9-8e00-a9ebad8217db"

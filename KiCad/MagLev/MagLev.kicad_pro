@@ -56,11 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|140350000|100125000|416b574b-801b-42ad-bafb-60d9b8625192|62a15e71-6fc2-4670-a239-f96fd8cf7108",
-        "solder_mask_bridge|140350000|100125000|62a15e71-6fc2-4670-a239-f96fd8cf7108|416b574b-801b-42ad-bafb-60d9b8625192",
-        "unconnected_items|109068880|74039696|24251c7d-fba9-43d2-8e7a-be0eccf3311d|9045c753-992f-4af0-a93b-c734b4eaf8e7",
-        "unconnected_items|114442891|66473654|272184b4-34f0-4a98-8b41-c1d3b3731b73|37c27825-7c25-4fcd-ac85-9b047047ab2f",
-        "unconnected_items|189960000|71870000|8b58a675-d66c-487e-ac22-1883181486a2|b5157b6e-3b5f-43c6-8a72-9620ae0a457d"
+        "clearance|140350000|100125000|65cfbef8-a04c-4284-8223-99e0101954f7|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887"
       ],
       "meta": {
         "version": 2
@@ -422,7 +418,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Maglev_Footprint_Library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -554,7 +552,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/kevin.dueck/Desktop/Website/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
