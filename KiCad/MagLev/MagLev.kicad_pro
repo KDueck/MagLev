@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.0
+          "height": 10.0,
+          "width": 10.0
         },
         "silk_line_width": 0.153,
         "silk_text_italic": false,
@@ -56,7 +56,10 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|140350000|100125000|65cfbef8-a04c-4284-8223-99e0101954f7|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887"
+        "clearance|140350000|100125000|65cfbef8-a04c-4284-8223-99e0101954f7|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887",
+        "solder_mask_bridge|140350000|100125000|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887|65cfbef8-a04c-4284-8223-99e0101954f7",
+        "unconnected_items|107149645|69100000|9045c753-992f-4af0-a93b-c734b4eaf8e7|ee0021c8-a57b-4558-81ea-d0fae3decbe4",
+        "unconnected_items|189960000|71870000|02136df5-4757-4be9-8e2c-9c56bd869573|b5157b6e-3b5f-43c6-8a72-9620ae0a457d"
       ],
       "meta": {
         "version": 2
@@ -176,6 +179,7 @@
       "track_widths": [
         0.0,
         0.3,
+        0.5,
         1.0,
         2.0
       ],
@@ -465,6 +469,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LED_supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.198,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -577,6 +598,10 @@
     [
       "f228425d-6c39-40c9-8e00-a9ebad8217db",
       "MCU"
+    ],
+    [
+      "7ecf3de4-783d-4b8c-b923-a0988866cb48",
+      "LED Circuits"
     ]
   ],
   "text_variables": {}
