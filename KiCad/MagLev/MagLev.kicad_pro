@@ -57,10 +57,9 @@
       ],
       "drc_exclusions": [
         "clearance|140350000|100125000|65cfbef8-a04c-4284-8223-99e0101954f7|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887",
-        "solder_mask_bridge|140350000|100125000|d09fdcf3-c9e4-4a2e-ae8b-c8af3ab26887|65cfbef8-a04c-4284-8223-99e0101954f7",
-        "unconnected_items|114427386|66721027|7bd500d2-28ee-4869-ace3-1945821d858c|49877b98-b22d-45df-82f1-7d3a06b90c97",
-        "unconnected_items|119527386|63527386|0a8a89fa-c308-44b2-9633-86e485b61188|167cb1f6-8ea6-4adc-a798-5bb0fbb26a6c",
-        "unconnected_items|151800001|148000000|1f383cff-5fb0-4dc2-8abd-e3e4e338a649|55d4e0e6-7284-4307-a496-441af78fec6e",
+        "unconnected_items|114427386|66721027|7bd500d2-28ee-4869-ace3-1945821d858c|275e232f-8fa7-448b-a986-2e68ea2954ad",
+        "unconnected_items|119527386|63527386|657b74de-1962-4374-a3e1-18ba07ffbe53|167cb1f6-8ea6-4adc-a798-5bb0fbb26a6c",
+        "unconnected_items|151800001|148000000|1f383cff-5fb0-4dc2-8abd-e3e4e338a649|2c722722-7b3b-423b-86c5-360a6d8823bf",
         "unconnected_items|189960000|71870000|02136df5-4757-4be9-8e2c-9c56bd869573|b5157b6e-3b5f-43c6-8a72-9620ae0a457d"
       ],
       "meta": {
@@ -102,7 +101,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
