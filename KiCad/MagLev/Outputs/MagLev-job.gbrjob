@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.6"
     },
-    "CreationDate": "2023-08-11T13:22:00+02:00"
+    "CreationDate": "2023-08-13T13:34:14+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "MagLev",
       "GUID": "4d61674c-6576-42e6-9b69-6361645f7063",
-      "Revision": "rev?"
+      "Revision": "V1.0"
     },
     "Size": {
       "X": 120.1,
