@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.6"
     },
-    "CreationDate": "2023-08-13T13:34:14+02:00"
+    "CreationDate": "2023-10-06T12:53:15+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -76,6 +76,11 @@
     {
       "Path": "MagLev-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "MagLev-User_2.gbr",
+      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
